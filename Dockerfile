@@ -1,0 +1,5 @@
+ARG RUST_VER=1.60
+ARG JUPYTER_VER=1.60
+
+from rust:${RUST_VER}-slim
+
