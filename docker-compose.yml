@@ -5,5 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - ./vol:/notebooks
     ports:
       - 8888:8888
