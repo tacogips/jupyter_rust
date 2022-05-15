@@ -1,17 +1,12 @@
-
-## RUN
-
-or see [./docker-compose.yml](docker-compose.yml)
-
-open `localohst:8888` without token.
-
-
 ## Usage
 ### docker run
 
 ```bash
 docker run --mount src="$(pwd)",target=/notebooks,type=bind -p 8888:8888 tacogips/jupyter_rust:latest
 ```
+
+open `localohst:8888` without token.
+
 ### docker-compose example
 
 ```yaml
