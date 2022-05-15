@@ -1,5 +1,5 @@
 
-![./img/jupyter_rust.gif](jupyter_rust.gif)
+![img/jupyter_rust.gif](img/jupyter_rust.gif)
 
 ## Usage
 ### docker run
